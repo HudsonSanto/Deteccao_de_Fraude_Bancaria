@@ -58,6 +58,36 @@
 
 <p>O dataset utilizado está disponível publicamente e foi carregado a partir do meu Google Drive. Contém mais de 6 milhões de registros simulados de transações bancárias.</p>
 
+<h2>📊 Sobre o Dataset</h2>
+<p>
+  O conjunto de dados utilizado neste projeto possui um total de <strong>6.362.620 registros</strong> e <strong>11 colunas</strong>, armazenado em formato <code>.csv</code>. 
+  Trata-se de um dataset com transações financeiras simuladas, sendo utilizado comumente para problemas de detecção de fraudes em ambientes supervisionados de Machine Learning.
+</p>
+<p>
+  Uma característica importante é o forte desbalanceamento de classes: apenas <strong>0.129% das transações são fraudulentas</strong>, o que representa um desafio adicional na modelagem preditiva.
+</p>
+<p>
+  O arquivo original pode ser encontrado na pasta <code>dataset</code> do repositório.
+</p>
+
+
+<h2>📊 Descrição das Colunas</h2>
+<p>O dataset utilizado neste projeto contém as seguintes colunas:</p>
+
+<ul>
+  <li><strong>step</strong>: Representa o tempo em unidades (cada unidade equivale a 1 hora).</li>
+  <li><strong>type</strong>: Tipo da transação realizada (e.g., <em>CASH_OUT</em>, <em>PAYMENT</em>, <em>CASH_IN</em>, <em>TRANSFER</em>, <em>DEBIT</em>).</li>
+  <li><strong>amount</strong>: Valor da transação.</li>
+  <li><strong>nameOrig</strong>: Identificador do cliente que iniciou a transação.</li>
+  <li><strong>oldbalanceOrg</strong>: Saldo da conta de origem antes da transação.</li>
+  <li><strong>newbalanceOrig</strong>: Saldo da conta de origem após a transação.</li>
+  <li><strong>nameDest</strong>: Identificador do cliente que recebeu a transação.</li>
+  <li><strong>oldbalanceDest</strong>: Saldo da conta de destino antes da transação.</li>
+  <li><strong>newbalanceDest</strong>: Saldo da conta de destino após a transação.</li>
+  <li><strong>isFraud</strong>: Indica se a transação é fraudulenta (1 para fraude, 0 para transação legítima).</li>
+  <li><strong>isFlaggedFraud</strong>: Indica se a transação foi sinalizada automaticamente como potencial fraude.</li>
+</ul>
+
 <h2>🚀 Como Executar</h2>
 
 <ol>
